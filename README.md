@@ -13,3 +13,7 @@ python3 -m pip install -r requirements.txt
 # Deactivate venv
 deactivate
 ```
+
+Reference
+Expression host: https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=10090
+https://www.genscript.com/tools/codon-frequency-table
