@@ -69,7 +69,7 @@ def validate_dna_seq(normalized_dna_seq, start_from=0):
 def to_aa_representation(codon_representation, start_from=0):
     index_in_codon_representation = start_from
     aa_representation = ""
-    while index_in_codon_representation + 3 < len(codon_representation):
+    while index_in_codon_representation + 3 <= len(codon_representation):
         curr_codon = codon_representation[index_in_codon_representation:index_in_codon_representation + 3]
         if curr_codon in CODON_TO_AA:
             aa_representation = aa_representation + CODON_TO_AA[curr_codon]
