@@ -1,4 +1,4 @@
-# dna-optimization
+# DNA Optimization Tool
 ## Overview
 This small command line interface tool allows you to run the following DNA optimizations on a given DNA sequence:  
 
