@@ -42,5 +42,4 @@ def cli_main(dna_seq, optimization, start_codon, output_file, seq_name):
     return
 
 
-if __name__ == "__main__":
-    cli_main()
+cli_main()
