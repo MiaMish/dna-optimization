@@ -1,11 +1,12 @@
 # dna-optimization
 ## Overview
 This small command line interface tool allows you to run the following DNA optimizations on a given DNA sequence:  
+
 | Type  | Description | Development Stage |
 | ------------- | ------------- | ------------- |
 | Codon optimization  | TBC | WIP |
-| Splicing removal  | Identify splicing sites using [this tool](https://www.fruitfly.org/cgi-bin/seq_tools/splice.pl) and remove them  | Supported |
-| GGGG and CCCC removal | Identify GGGG and CCCC codons and replace them | Supported |
+| Splicing removal  | Identify splicing sites using [this tool](https://www.fruitfly.org/cgi-bin/seq_tools/splice.pl) and remove them.  | Supported |
+| GGGG and CCCC removal | Identify GGGG and CCCC codons and replace them. | Supported |
 | Increase WCRH/RCY | TBC | WIP |
 
 The optimizations preserve the amino acids representation of the sequence and only optimize the codon selection.
