@@ -11,7 +11,6 @@ from splicing import *
 @click.option('--output-file', prompt='Output file path', default='out.txt')
 @click.option('--seq-name', prompt='Name for seq', default='')
 def cli_main(dna_seq, optimization, start_codon, output_file, seq_name):
-    click.echo(click.style('Hello World!', fg='green'))
     start_codon_as_int = int(start_codon)
     if dna_seq == "":
         print("Randomizing DNA seq")
